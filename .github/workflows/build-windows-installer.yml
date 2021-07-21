@@ -90,7 +90,7 @@ jobs:
       - name: Upload Windows exe's to artifacts
         uses: actions/upload-artifact@v2.2.2
         with:
-          name: Windows-Exe
+          name: Windows-TadCoin-Exe-zipped
           path: ${{ github.workspace }}\tad-blockchain-gui\Tad-win32-x64\
 
       - name: Upload Installer to artifacts
@@ -98,3 +98,10 @@ jobs:
         with:
           name: Windows-Installers
           path: ${{ github.workspace }}\tad-blockchain-gui\release-builds\
+
+      - name: Upload GUI folder
+        uses: actions/upload-artifact@v2.2.2
+        with:
+          name: GUi folder
+          path: ${{ github.workspace }}\tad-blockchain-gui\
+
