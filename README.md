@@ -1,7 +1,7 @@
 # TadCoin Blockchain network
 
 We've reached mainnet and GUI apps are available for download! 
-## ➡️➡️ [Download TadCoin here](https://github.com/Tad-Network/tad-blockchain/releases) ⬅️⬅️
+## :arrow_right::arrow_right: [Download TadCoin here](https://github.com/Tad-Network/tad-blockchain/releases) :arrow_left::arrow_left:
 
 Have questions, suggestions or just want to show off your TadCoins? [Join our Discord](https://discord.gg/mwZF9DX544)
 
