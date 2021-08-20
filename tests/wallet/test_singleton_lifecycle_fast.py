@@ -8,7 +8,7 @@ from tad.types.blockchain_format.program import Program, SerializedProgram
 from tad.types.announcement import Announcement
 from tad.types.blockchain_format.coin import Coin
 from tad.types.blockchain_format.sized_bytes import bytes32
-from tad.types.coin_solution import CoinSolution as CoinSpend
+from tad.types.coin_spend import CoinSpend
 from tad.types.spend_bundle import SpendBundle
 from tad.util.condition_tools import ConditionOpcode
 from tad.util.ints import uint64
@@ -419,7 +419,7 @@ def spend_coin_to_singleton(
 
     additions, removals = coin_store.update_coin_store_for_spend_bundle(spend_bundle, now, MAX_BLOCK_COST_CLVM)
 
-    launcher_coin = launcher_spend_bundle.coin_solutions[0].coin
+    launcher_coin = launcher_spend_bundle.coin_spends[0].coin
 
     assert_coin_spent(coin_store, launcher_coin)
     assert_coin_spent(coin_store, farmed_coin)
