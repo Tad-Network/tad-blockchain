@@ -29,7 +29,7 @@ sudo apt-get upgrade -y
 sudo apt install git -y
 
 # Checkout the source and install
-git clone git@github.com:Tad-Network/tad-blockchain.git 
+git clone https://github.com/Tad-Network/tad-blockchain
 cd tad-blockchain
 
 sh install.sh
