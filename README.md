@@ -11,7 +11,15 @@ Have questions, suggestions or just want to show off your TadCoins? [Join our Di
 * Get most of the space on the hard drive - we support k28+ plots.  
 * It's Open Source and forked off Chia Network 1.2.2. You can always audit code by diff'ing it with Chia upstream
 * You don't need goddamn IP addresses for the nodes. Tad's network discovery works.
+     
+## Tad is big
 
+There are thousands of users and dozens projects are working with TadCoin. Some of them:
+
+* Exchanges (buy and sell TadCoin): [forks.green](https://www.forks.green/) and [xchforks.com](https://xchforks.com/tad/)   
+* Calculators: [chiaforkscalculator.com](https://chiaforkscalculator.com/tad)
+* Blockchain explorers: [alltheblocks.net](https://alltheblocks.net/tad/) and [tad.posat.io](https://tad.posat.io/)
+* Other: [forks.wiki](https://forum.forks.wiki/pages/tad/)
 
 ## Installation
 
@@ -48,10 +56,14 @@ tad keys add
 ```
 
 ## Join Tad Community!
+   
+Do you have question, want to offer help, hunting for bounty or just want to way hi? Join our ever growing community
 
 * [Tad Discord](https://discord.gg/mwZF9DX544)
 * [Twitter @TadCoin](https://twitter.com/TadCoin)
-* [Reddit /r/TadCoin](https://www.reddit.com/r/TadCoin/) 
+* [Reddit /r/TadCoin](https://www.reddit.com/r/TadCoin/)
+* [TadCoin.xyz project website](https://tadcoin.xyz/)
+
                                                         
 ## Ports used by TadCoin
 
