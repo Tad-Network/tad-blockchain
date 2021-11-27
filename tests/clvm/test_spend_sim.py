@@ -2,11 +2,11 @@ import pytest
 
 from blspy import G2Element
 
-from chia.clvm.spend_sim import SpendSim, SimClient
-from chia.types.blockchain_format.sized_bytes import bytes32
-from chia.types.blockchain_format.program import Program
-from chia.types.spend_bundle import SpendBundle
-from chia.types.coin_spend import CoinSpend
+from tad.clvm.spend_sim import SpendSim, SimClient
+from tad.types.blockchain_format.sized_bytes import bytes32
+from tad.types.blockchain_format.program import Program
+from tad.types.spend_bundle import SpendBundle
+from tad.types.coin_spend import CoinSpend
 
 
 class TestSpendSim:

@@ -29,7 +29,7 @@ python -m venv venv
 python -m pip install --upgrade pip
 pip install wheel pep517
 pip install pywin32
-pip install pyinstaller==4.2
+pip install pyinstaller==4.5
 pip install setuptools_scm
 
 Write-Output "   ---"
@@ -104,6 +104,15 @@ $packageVersion = "$env:TAD_INSTALLER_VERSION"
 $packageName = "Tad-$packageVersion"
 
 Write-Output "packageName is $packageName"
+
+Write-Output "   ---"
+Write-Output "fix version in package.json"
+choco install jq
+cp package.json package.json.orig
+jq --arg VER "$env:CHIA_INSTALLER_VERSION" '.version=$VER' package.json > temp.json
+rm package.json
+mv temp.json package.json
+Write-Output "   ---"
 
 Write-Output "   ---"
 Write-Output "electron-packager"

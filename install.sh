@@ -49,8 +49,8 @@ if [ "$(uname)" = "Linux" ]; then
 		sudo apt-get install -y python3.8-venv python3-distutils
 	elif [ "$UBUNTU" = "true" ] && [ "$UBUNTU_2100" = "1" ]; then
 		echo "Installing on Ubuntu 21.04 or newer."
-		sudo apt-get update
-		sudo apt-get install -y python3.9-venv python3-distutils
+		#sudo apt-get update
+		#sudo apt-get install -y python3.9-venv python3-distutils
 	elif [ "$DEBIAN" = "true" ]; then
 		echo "Installing on Debian."
 		sudo apt-get update
@@ -80,7 +80,7 @@ fi
 find_python() {
 	set +e
 	unset BEST_VERSION
-	for V in 37 3.7 38 3.8 39 3.9 3; do
+	for V in 39 3.9 38 3.8 37 3.7 3; do
 		if which python$V >/dev/null; then
 			if [ "$BEST_VERSION" = "" ]; then
 				BEST_VERSION=$V
@@ -119,8 +119,8 @@ python -m pip install -e . --extra-index-url https://pypi.chia.net/simple/
 
 echo ""
 echo "🤏 TAD blockchain install.sh complete."
-echo "Join testnet channel to become tester:"
-echo "https://discord.gg/4dkydqsQ"
+echo "Join our discord: https://discord.gg/4dkydqsQ"
+echo "More information: https://tadcoin.xyz"
 echo ""
 echo "To install the GUI type 'sh install-gui.sh' after '. ./activate'."
 echo ""
