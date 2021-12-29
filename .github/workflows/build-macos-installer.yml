@@ -108,6 +108,7 @@ jobs:
         . ./activate
         cd ./tad-blockchain-gui
         git status
+        npm i -g npm@latest
         cd ../build_scripts
         sh build_macos.sh
 
