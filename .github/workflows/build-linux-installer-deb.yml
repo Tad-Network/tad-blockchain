@@ -91,6 +91,7 @@ jobs:
           sudo apt-get -y install rpm
           ldd --version
           cd ./tad-blockchain-gui
+          npm i -g npm@latest
           git status
           cd ../build_scripts
           sh build_linux_deb.sh amd64
