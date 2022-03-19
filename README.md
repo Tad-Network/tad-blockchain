@@ -1,5 +1,18 @@
 # TadCoin Blockchain network
 
+-------------------
+
+⚠️⚠️⚠️⚠️ Project is not maintained anymore.
+
+⚠️⚠️⚠️⚠️ Timelord, introducer, website and backup nodes are stopped.
+
+⚠️⚠️⚠️⚠️ _if somebody wants to take over the project ping me(@TadDam) on discord - I'll transfer all accounts and premine(mostly untouched)_
+
+More details - see [reddit post](https://www.reddit.com/r/TadCoin/comments/thk2co/goodbye_all/).
+
+-------------------
+
+
 We've reached mainnet and GUI apps are available for download! 
 ## :arrow_right::arrow_right: [Download TadCoin here](https://github.com/Tad-Network/tad-blockchain/releases) :arrow_left::arrow_left:
 
